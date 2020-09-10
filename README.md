@@ -36,7 +36,7 @@ Criar uma pasta em um local de escolha na  máquina, por nome de **"hello"**, de
  1.  Importar o módulo http, que vem por padrão no node.js: 
  
 	 ```js 
-		const  http  =  require('http');	  
+	 const  http  =  require('http');	  
 	 ```
 	 A palavra reservada **const** usada se refere a uma constante (algo que não muda), foi dado a ela o nome de http, semelhante ao nome do módulo que foi chamado usando a diretiva **require** (requerer algo). 
 	 
