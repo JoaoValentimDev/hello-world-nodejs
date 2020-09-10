@@ -26,7 +26,7 @@ Criar uma pasta em um local de escolha na  máquina, por nome de **"hello"**, de
  1.  Importar o módulo http, que vem por padrão no node.js: 
  
 	 ```js 
-			const  http  =  require('http');	  
+		const  http  =  require('http');	  
 	 ```
 	 A palavra reservada **const** usada se refere a uma constante (algo que não muda), foi dado a ela o nome de http, semelhante ao nome do módulo que foi chamado usando a diretiva **require** (requerer algo). 
 	 
@@ -38,24 +38,25 @@ Criar uma pasta em um local de escolha na  máquina, por nome de **"hello"**, de
       
     A função createServer é responsável por criar um novo servidor, e dentro desta recebemos outra função com uma [requisição e respósta](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#:~:text=As%20mensagens%20enviadas%20pelo%20cliente,chamadas%20de%20respostas%20(responses)).
     
+	
 	```js 
-		 const meuServidor = http.createServer(function (requisicao, resposta) {});
+		const meuServidor = http.createServer(function (requisicao, resposta) {});
 	```
 
      A palavra reservada **function** se refere a uma **função**, no qual neste caso é **callback** (passada como parâmetro), que também recebe dois parâmetros, **"requisicao"**  e **"resposta"**. Dentro desta função deve se declarar o parâmetro **"resposta"** dando um cabeçalho para o mesmo, atrvés da função **setHeader**, que ele nos provê, definindo o conteúdo do cabeçalho como texto.
 
 	```js 
-		 const meuServidor = http.createServer(function (requisicao, resposta) {
+		const meuServidor = http.createServer(function (requisicao, resposta) {
 			resposta.setHeader('Content-type', 'text/plain');
-		 });
+		});
 	```
    Usando ainda **"resposta"** deve se usar o método **end** onde é exibida a mensagem de "Hello World"
 	
 	```js 
-		 const meuServidor = http.createServer(function (requisicao, resposta) {
-			resposta.setHeader('Content-type', 'text/plain');
-			resposta.end('Hello World');
-		 });	
+	   const meuServidor = http.createServer(function (requisicao, resposta) {
+		  resposta.setHeader('Content-type', 'text/plain');
+		  resposta.end('Hello World');
+	   });	
 	```
 	 
 3. Para finalizar usa-se constante ***"meuServidor"*** para chamar a função **listen** que recebe a <a  href="https://pt.wikipedia.org/wiki/Porta_(redes_de_computadores)">porta</a> que o projeto vai rodar e uma função para informar se deu tudo certo.
