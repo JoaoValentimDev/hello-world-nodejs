@@ -1,6 +1,16 @@
-#   Hello World em Node.js
+# Indice
+- [Indice](#indice)
+	- [Hello World em Node.js](#hello-world-em-nodejs)
+	- [O que é Node.js ?](#o-que-é-nodejs-)
+	- [Ferramentas importantes usadas no projeto](#ferramentas-importantes-usadas-no-projeto)
+	- [Passo-a-passo](#passo-a-passo)
+	- [Arquivo completo](#arquivo-completo)
+	- [Executando arquivo "hello.js" 🚀](#executando-arquivo-hellojs-)
+
+## Hello World em Node.js
 
 Este projeto tem como finalidade exibir a mensagem "Hello World" em tela para o usuário, usando o **Node.js**, um **runtime** de JavaScript. Foi usado o módulo [http](https://www.luiztools.com.br/post/http-para-programadores-node-js/) do Node.js, responsável pela criação de um pequeno servidor para esta finalidade.
+
 
 ## O que é Node.js ?
 
@@ -95,28 +105,24 @@ meuServidor.listen(3000, function() {
 Para executar o projeto segue o seguinte processo: 
 
 ```bash     
-	cd hello/
-	node ./hello.js 
+cd hello/
+node ./hello.js 
 ```
 
    Execute o terminal com Node.js já instalado, navegue até o diretório do projeto usando o comando **cd** e já no diretório aonde esta o arquivo execute **node** seguido de **./hello.js** que é o nome do arquivo na raiz do projeto.
 
 ```bash     
-	cd hello/
-	node ./hello.js 
+cd hello/
+node ./hello.js 
 ```
    No terminal foi vista a mensagem informada:
    
 ```bash
-	node ./hello.js
-	Servidor rodando na porta 3000...
+node ./hello.js
+Servidor rodando na porta 3000...
 ```
 
 No navegador informe na barra de pesquisa localhost:3000 e o resultado final segue a baixo:
-
-  
-
-
 
 ![Hello World](https://flaviocopes.com/docker-node-container-example/Screen%20Shot%202020-07-05%20at%2011.30.33.png)
 
