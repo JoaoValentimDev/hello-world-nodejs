@@ -33,39 +33,39 @@ Criar uma pasta em um local de escolha na  máquina, por nome de **"hello"**, de
 2. Criar um servidor usando uma função do módulo http, por nome **createServer**, que deve ser armazenada dentro de uma constante por nome **meuServidor**
 
 	 ``` js 
-		const  meuServidor = http.createServer();	  
+	 const  meuServidor = http.createServer();	  
 	 ```
       
     A função createServer é responsável por criar um novo servidor, e dentro desta recebemos outra função com uma [requisição e respósta](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#:~:text=As%20mensagens%20enviadas%20pelo%20cliente,chamadas%20de%20respostas%20(responses)).
     
 	
 	```js 
-		const meuServidor = http.createServer(function (requisicao, resposta) {});
+	const meuServidor = http.createServer(function (requisicao, resposta) {});
 	```
 
      A palavra reservada **function** se refere a uma **função**, no qual neste caso é **callback** (passada como parâmetro), que também recebe dois parâmetros, **"requisicao"**  e **"resposta"**. Dentro desta função deve se declarar o parâmetro **"resposta"** dando um cabeçalho para o mesmo, atrvés da função **setHeader**, que ele nos provê, definindo o conteúdo do cabeçalho como texto.
 
 	```js 
-		const meuServidor = http.createServer(function (requisicao, resposta) {
-			resposta.setHeader('Content-type', 'text/plain');
-		});
+	const meuServidor = http.createServer(function (requisicao, resposta) {
+	 resposta.setHeader('Content-type', 'text/plain');
+	});
 	```
    Usando ainda **"resposta"** deve se usar o método **end** onde é exibida a mensagem de "Hello World"
 	
 	```js 
-	   const meuServidor = http.createServer(function (requisicao, resposta) {
-		  resposta.setHeader('Content-type', 'text/plain');
-		  resposta.end('Hello World');
-	   });	
+	const meuServidor = http.createServer(function (requisicao, resposta) {
+	 resposta.setHeader('Content-type', 'text/plain');
+	 resposta.end('Hello World');
+	});	
 	```
 	 
 3. Para finalizar usa-se constante ***"meuServidor"*** para chamar a função **listen** que recebe a <a  href="https://pt.wikipedia.org/wiki/Porta_(redes_de_computadores)">porta</a> que o projeto vai rodar e uma função para informar se deu tudo certo.
    
    ```js 
-		meuServidor.listen(3000, function() {
-			console.log('Servidor rodadno na porta 3000')
-		});
-	```
+	meuServidor.listen(3000, function() {
+		console.log('Servidor rodadno na porta 3000')
+	});
+   ```
     Deve se definir a porta como sendo **3000**, pois é a mais usada em desenvolvimento e o **console.log** para exibir uma mensagem no terminal/prompt.
 
 
