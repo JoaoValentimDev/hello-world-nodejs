@@ -9,5 +9,5 @@ const meuServidor = http.createServer(function (requisicao, resposta) {
         
 // Dando uma porta para o meu servidor
 meuServidor.listen(3000, function() {
-	console.log('Servidor rodando na porta 3000...')
+	console.log('Servidor rodando na porta 3000...');
 });
