@@ -73,22 +73,20 @@ Criar uma pasta em um local de escolha na  máquina, por nome de **"hello"**, de
 
 O resultado final de "hello.js" será este:
 
-```js 
-			
-    // módulo http do node.js
-	const  http  =  require('http');
+```js 	
+// módulo http do node.js
+const  http  =  require('http');
 
-	// criando meu servidor
-	const  meuServidor  =  http.createServer(function (requisicao, resposta) {
-	  resposta.setHeader('Content-type', 'text/plain');
-	  resposta.end('Hello World');
-	});
+// criando meu servidor
+const  meuServidor  =  http.createServer(function (requisicao, resposta) {
+ resposta.setHeader('Content-type', 'text/plain');
+ resposta.end('Hello World');
+});
 
-	// Dando uma porta para o meu servidor
-	meuServidor.listen(3000, function() {
-		console.log('Servidor rodando na porta 3000...');
-	});
-
+// Dando uma porta para o meu servidor
+meuServidor.listen(3000, function() {
+ console.log('Servidor rodando na porta 3000...');
+});
 ```
 
 ## Executando arquivo "hello.js" 🚀
