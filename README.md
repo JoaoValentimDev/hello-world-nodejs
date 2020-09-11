@@ -4,7 +4,7 @@
 
 -  [O que é Node.js ?](#o-que-é-nodejs-)
 
--  [Ferramentas importantes usadas no projeto](#ferramentas-usadas-no-projeto)
+-  [Ferramentas](#ferramentas)
 
 - [Execução do projeto](#execução-do-projeto)
 
