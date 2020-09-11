@@ -1,7 +1,5 @@
 # Índice
 
-
-
 -  [Hello World em Node.js](#hello-world-em-nodejs)
 
 -  [O que é Node.js ?](#o-que-é-nodejs-)
@@ -11,19 +9,11 @@
 -  [Execução do projeto](#execução-do-projeto)
 - [Explicando hello.js](#explicando-hellojs)
 
-
-
 ## Hello World em Node.js 
-
-
 
 Este projeto tem como finalidade exibir a mensagem "Hello World" em tela para o usuário, usando o **Node.js**, um **runtime** de JavaScript. Foi usado o módulo [http](https://www.luiztools.com.br/post/http-para-programadores-node-js/) do Node.js, responsável pela criação de um pequeno servidor para esta finalidade.
 
-
-
 ## O que é Node.js ?
-
-
 
 Node.js é um ambiente **runtime** de execução de códigos Javascript **fora do navegador**. Antes de ser inventado o Javascript era executado somente nos navegadores web, porém, logo após seu surgimento o uso da liguagem foi muito além. 
 Hoje JavaScript roda em apps nos nossos celulares Android e IOS, programas desktop, como é o caso do editor de texto da **Microsoft** o [Visual Studio Code](https://code.visualstudio.com/) (Usado por muitos Devs) e servidores no [back-end](https://www.digitalhouse.com/br/blog/back-end-o-que-e-para-que-serve-e-como-aprender).
@@ -37,8 +27,6 @@ Exemplos de empresas que utilizam o Node.js:
 
 - Microsoft.
 
-  
-
 ## Ferramentas usadas no projeto 
 
 Neste projeto foram usadas as seguintes tecnologias:
@@ -47,11 +35,7 @@ Neste projeto foram usadas as seguintes tecnologias:
 - Editor de texto;
 - Navegador Web.
 
-
-
 ## Execução do projeto
-
-
 
 Para executar este projeto basta fazer o download diretamente deste repositório e salvar o arquivo em uma pasta da sua escolha em sua máquina.
 
@@ -62,8 +46,6 @@ Ele virá como  **".zip"** extraia os arquivos e siga as seguintes etapas:
    ```bash
    git clone https://github.com/JoaoValentimDev/hello-world-nodejs
    ```
-
-   
 
 2. Entre na pasta do projeto:
 
@@ -85,17 +67,11 @@ Ele virá como  **".zip"** extraia os arquivos e siga as seguintes etapas:
 
    Surpresa!!!  
 
-  
-
+ 
 ***obs:*** Para que o comando **node** funcione, o mesmo deve estar instalado na sua máquina.
 
 
-
-
-
 ## Explicando "hello.js"
-
-
 
 Em nosso arquivo "hello.js" temos os seguintes comandos:
 
