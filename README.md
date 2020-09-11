@@ -6,10 +6,10 @@
 
 -  [O que é Node.js ?](#o-que-é-nodejs-)
 
--  [Ferramentas importantes usadas no projeto](#ferramentas-importantes-usadas-no-projeto)
+-  [Ferramentas importantes usadas no projeto](#ferramentas-usadas-no-projeto)
 
--  [Execução do projeto](#execucao-do-projeto-)
-- [Explicando hello.js](#explicando-hello-js-)
+-  [Execução do projeto](#execução-do-projeto)
+- [Explicando hello.js](#explicando-hellojs)
 
 
 
