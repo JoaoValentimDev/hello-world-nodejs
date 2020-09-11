@@ -59,7 +59,11 @@ Ele virá como  **".zip"** extraia os arquivos e siga as seguintes etapas:
    node ./hello.js
    ```
 
-   Após o comando ser executado a seguinte mensagem vai aparecer no seu console a mensagem **"Servidor rodando na porta 3000..."**.
+   Após o comando ser executado a seguinte mensagem vai aparecer no seu console:
+   
+   ```bash
+   Servidor rodando na porta 3000...
+   ```
 
 4. Deixe o terminal/prompt aberto e abra seu navegador de Internet. Em sequencia digite na barra de pesquisa localhost:3000 e tecle enter.
 
