@@ -87,7 +87,7 @@ Ele virá como  **".zip"** extraia os arquivos e siga as seguintes etapas:
 
   
 
-***obs:*** Para que os comando **node**  funcione, o mesmo deve estar instalado na sua máquina.
+***obs:*** Para que o comando **node** funcione, o mesmo deve estar instalado na sua máquina.
 
 
 
@@ -123,8 +123,6 @@ A primeira linha é responsável por importar o módulo **http** a partir da dir
 const  http  =  require('http'); 
 ```
 
-
-
 Na segunda linha iniciamos a criação de um pequeno servidor, este será usado para exibir no navegador a nossa mensagem de "Hello World". Usamos para essa ocasião a função **createServer** que é própria do módulo **http** para trabalhar com servidores. Ela recebe uma **requisição** e uma **resposta**.
 
 Armazenamos isso tudo dentro de uma constante chamada "meuServidor", que usaremos no futuro.
@@ -148,11 +146,4 @@ meuServidor.listen(3000, function() {
 
 Assim temos tudo para nossa aplicação funcionar e exibir nossa mensagem no navegador.
 
-
-
 ![](https://flaviocopes.com/docker-node-container-example/Screen%20Shot%202020-07-05%20at%2011.30.33.png)
-
-  
-
-
-
