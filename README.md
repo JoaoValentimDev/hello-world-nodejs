@@ -59,7 +59,7 @@ Para executar o projeto siga os seguintes passos:
 2. Entre na pasta do projeto:
 
    ```bash
-   cd hello/
+   cd hello-world-nodejs/
    ```
 
 3. Execute no seu terminal/cmd o comando **node** seguido do nome do arquivo JavaScript:
